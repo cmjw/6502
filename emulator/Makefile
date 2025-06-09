@@ -3,7 +3,7 @@ CXXFLAGS = -std=c++17 -Wall -Wextra
 
 SRC_DIR = src
 
-SOURCES = $(SRC_DIR)/main.cpp $(SRC_DIR)/6502.cpp
+SOURCES = $(SRC_DIR)/main.cpp $(SRC_DIR)/6502.cpp $(SRC_DIR)/util.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 EXECUTABLE = 6502
 
